@@ -30,4 +30,48 @@ func main() {
 	areaCuadrado := baseCuadrado * baseCuadrado
 	fmt.Println(areaCuadrado)
 
+	x := 10
+	y := 50
+
+	// Suma
+	result := x + y
+	fmt.Println("suma:", result)
+
+	// Resta
+	result = x - y
+	fmt.Println("resta:", result)
+
+	// Multiplicacion
+	result = x * y
+	fmt.Println("Multiplicacion:", result)
+
+	// Division
+	result = y / x
+	fmt.Println("Division:", result)
+
+	// Modulo
+	result = y % x
+	fmt.Println("Modulo:", result)
+
+	// Incremental
+	x++
+	fmt.Println("Incremental:", x)
+
+	// Decremental
+	x--
+	fmt.Println("Decremental:", x)
+
+	// Printf
+	nombre := "Platzi"
+	curso := 500
+	fmt.Printf("%s tiene mas de %d cursos\n", nombre, curso)
+	fmt.Printf("%v tiene mas de %v cursos\n", nombre, curso)
+
+	// Sprintf
+	message := fmt.Sprintf("%s tiene mas de %d cursos", nombre, curso)
+	fmt.Println(message)
+
+	// Tipo de dato
+	fmt.Printf("nombre: %T\n", nombre)
+	fmt.Printf("curso: %T", curso)
 }
